@@ -18,70 +18,89 @@
 </head>
 
 <body>
-	<h1 style="text-align: center;">This is a heading</h1>
+	<header>
+		<h1 style="text-align: center;">This is a heading</h1>
 
-	<a href="https://www.holbertonschool.com" target="_blank">
-		<img src="https://cdn.prod.website-files.com/68cd10f19740f79ae42aab7a/69329ac171bbc3890de3f1b9_holberton-home-header.jpg"
-			alt="Hoberlton School logo" width="1400" height="500" title="Hoberlton logo" style="border-radius:15px; border:5 px solid black"></a>
-	<p>This is my third time writing html on my own without using a LLM.<b>Honestly, it's easier than I thought.</b>
-	</p>
-	<hr>
-	<h2 style="background-color:brown">This is my second heading</h2>
-	<a href="C:\Users\HP\Desktop\alu-web-development\html_basic\tweets.html"> Click to see my tweets page</a>
-	<p style="color:cornflowerblue">I am just trying out new elements that I learnt today to make sure I will not forget
-		them.I just forgot to
-		<i>close the first headings paragraph </i>
-	</p>
-	<table>
-		<tr>
-			<th>Name</th>
-			<th>Age</th>
+		<a href="https://www.holbertonschool.com" target="_blank">
+			<img src="https://cdn.prod.website-files.com/68cd10f19740f79ae42aab7a/69329ac171bbc3890de3f1b9_holberton-home-header.jpg"
+				alt="Hoberlton School logo" width="1400" height="500" title="Hoberlton logo"
+				style="border-radius:15px; border:5 px solid black"></a>
+		<p>This is my third time writing html on my own without using a LLM.<b>Honestly, it's easier than I
+				thought.</b>
+		</p>
+		<p style="border:5px dotted rgb(111, 91, 184)">I have learnt about three types of lists in html;</p>
+		<ol start="1">
+			<li>Ordered list</li>
+			<li>Unordered list</li>
+			<li>Description list</li>
+		</ol>
+ 		 <ul>
+    		<li><a href="alu-web-development\html_basic\tweets.html">Click here to see my tweets</a></li>
+  		</ul>
+</header>
 
-		</tr>
-		<tr>
-			<td>Pauline</td>
-			<td>19</td>
-		</tr>
-		<tr>
-			<td>Marion</td>
-			<td>21</td>
-		</tr>
-	</table>
-	<h3>Heading 3</h3>
-	<video autoplay="" controls="" loop="" muted=""><source src="https://media.geeksforgeeks.org/wp-content/uploads/20241202174008478068/sample-vedio.mp4" type="video/mp4"/>
-	</video>
-	<p> I have have managed to put into practice new elements that I learnt
-		today.<strong>Hurrrraaaaaayyyyyyyyy!I'm actually getting it.</strong>That's all for now dear vs code,
-		see you later.<br />Ciao</p>
-	<p style="border:5px dotted rgb(111, 91, 184)">I have learnt about three types of lists in html;</p>
-	<ol start="1">
-		<li>Ordered list</li>
-		<li>Unordered list</li>
-		<li>Description list</li>
-	</ol>
-	<p>I can also do reverse list</p>
-	<ol reversed>
-		<li>Wake up</li>
-		<li>Study</li>
-		<li>Sleep</li>
-	</ol>
-	<p>That is all I have learnt for today</p>
-	<form>
-		<fieldset>
-			<legend>User personal information</legend>
-			<label for="name">Enter your full name:</label>
-			<input type="text" id="name" name="name" required />
-			<label for="email">Enter your email:</label>
-			<input type="email" id="email" name="email" required />
-			<label for="user-age">Enter your age:</label>
-			<input type="number" id="user-age" name="age" min="0" max="30" />
-			<label for="mobile">Enter mobile number:</label>
-			<input type="tel" id="mobile" name="number" required />
-			<label for="gender">Enter your gender:</label>
-			<input type="text" id="gender" name="gender" />
-			<input type="submit" id="submit" name="submit" />
-		</fieldset>
-	</form>
+	</header>
+	<main>
+		<article>
+		<hr>
+		<h2 style="background-color:brown">This is my second heading</h2>
+		<p style="color:cornflowerblue">I am just trying out new elements that I learnt today to make sure I will not
+			forget
+			them.I just forgot to
+			<i>close the first headings paragraph </i>
+		</p>
+		</article>
+		<aside>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+
+			</tr>
+			<tr>
+				<td>Pauline</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>Marion</td>
+				<td>21</td>
+			</tr>
+		</table>
+		</aside>
+		<h3>Heading 3</h3>
+		<video autoplay="" controls="" loop="" muted="">
+			<source src="https://media.geeksforgeeks.org/wp-content/uploads/20241202174008478068/sample-vedio.mp4"
+				type="video/mp4" />
+		</video>
+		<p> I have have managed to put into practice new elements that I learnt
+			today.<strong>Hurrrraaaaaayyyyyyyyy!I'm actually getting it.</strong>That's all for now dear vs code,
+			see you later.<br />Ciao</p>
+		<p>That is all I have learnt for today</p>
+		<form>
+			<fieldset>
+				<legend>User personal information</legend>
+				<label for="name">Enter your full name:</label>
+				<input type="text" id="name" name="name" required />
+				<label for="email">Enter your email:</label>
+				<input type="email" id="email" name="email" required />
+				<label for="user-age">Enter your age:</label>
+				<input type="number" id="user-age" name="age" min="0" max="30" />
+				<label for="mobile">Enter mobile number:</label>
+				<input type="tel" id="mobile" name="number" required />
+				<label for="gender">Enter your gender:</label>
+				<input type="text" id="gender" name="gender" />
+				<input type="submit" id="submit" name="submit" />
+			</fieldset>
+		</form>
+	</main>
+	<footer>
+		<p>
+			Created by: Pau
+		</p>
+		<p>
+			Contact: pau.creater@gmail.com
+		</p>
+	</footer>
 
 </body>
 
